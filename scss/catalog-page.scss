@@ -1,0 +1,127 @@
+.catalog-page{
+    margin-bottom: 100px;
+    &__link-one{
+        position: relative;
+        display: block;
+        &::before{
+            content: "";
+            background-image: url(../images/catalog-page-img.png);
+            background-repeat: no-repeat;
+            width: 20px;
+            height: 28px;            
+            position: absolute;
+            top: -5px;
+            left: -50px;
+        }
+    }
+    &__inner{
+        margin-bottom: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a{
+            color: #cab64b;
+            font-family: Helios;
+            font-size: 16px;
+            font-weight: 400;
+            text-decoration: underline;            
+        }
+    }
+    &__title{
+        margin-bottom: 68px;
+        color: #333f48;
+        font-family: "Helios Bold",sans-serif;
+        font-size: 36px;
+        font-weight: 400;
+    }
+    &__text{
+        margin-bottom: 35px;
+        color: #333f48;
+        font-family: 'Helios',sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23px;
+    }
+
+}
+.catolg__sub-text{
+    margin-bottom: 20px;
+}
+.catalog__item{
+    padding: 10px;
+    
+}
+.catalog-page__link{
+    margin: 0;
+    padding: 0;
+    border: none;
+    z-index: 10;
+    border-top: 1px solid #ffffff;
+    background-color: #b4c0c8;
+    right: 0;
+    top: 0;
+    a{ margin: 0;
+        padding: 19px 110px 19px 40px;
+        color: #ffffff;
+        font-family: 'Helios',sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+
+        text-align: center;
+    }
+}
+// .catalog__menu-link{
+//     width: 320px;
+// }
+.tab{
+    margin-top: 0px;
+}
+.sale{
+    margin-bottom: 60px;
+    &__title{
+        margin-bottom: 68px;
+        color: #333f48;
+        font-family: "Helios Bold",sans-serif;
+        font-size: 36px;
+        font-weight: 400;
+    }
+    &__text{
+        margin-bottom: 35px;
+        color: #333f48;
+        font-family: 'Helios',sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23px;
+    }
+}
+@media (max-width: 700px){
+    .catalog-page{
+        margin-bottom: 50px;
+        &__inner{
+            display: block;
+        }
+        &__link-one{
+            text-align: center;
+            
+        }
+        &__inner{
+            margin-bottom: 70px;
+            margin-bottom: 50px;
+        }
+        &__title{
+            margin-bottom: 40px;
+        }
+        &__text{
+            margin-bottom: 20px;
+        }
+    }
+    .sale{
+        margin-bottom: 60px;
+        &__title{
+           margin-bottom: 40px;
+        }
+        &__text{
+            margin-bottom: 20px;
+        }
+    }
+}

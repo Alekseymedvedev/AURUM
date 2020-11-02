@@ -1,0 +1,109 @@
+.project{
+
+    &__box{
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+    &__inner{
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        bottom: 50px;
+        right: 190px;
+        left: 190px;
+    }
+    &__text{
+        margin: 0 auto;
+        margin-bottom: 85px;
+        max-width: 430px;
+        text-align: center;
+    }
+    &__sub-title{
+        color: #cab64b;
+        font-family: "Helios Bold",sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        /* Text style for "Проект" */
+        color: #ffffff;
+        span{
+            color: #cab64b;
+        }
+    }
+    &__sub-text{
+        max-width: 380px;
+        color: #ffffff;
+    }
+    &__img{
+        margin: 0 auto;
+    }
+}
+.slick-prev.slick-arrow::before{
+    z-index: 1;
+    left: 960px;
+}
+.slick-next.slick-arrow::after{
+    left: 40px;
+    z-index: 1;
+ 
+}
+@media (max-width: 1200px) {
+    .project{
+        &__inner{
+            right: 140px;
+            left: 140px;
+        }
+    }
+}
+@media (max-width: 1050px){
+    .project{
+        .slick-prev.slick-arrow::before{
+            left: 900px;
+        }
+    }
+}
+@media (max-width: 992px) {
+    .project{
+        &__inner{
+            display: block;
+            right: 40px;
+            left: 40px;
+        }
+        &__item{
+            margin-bottom: 20px;
+        }
+        .slick-prev.slick-arrow::before{
+            top: 50px;
+            left: 100px;
+        }
+        .slick-next.slick-arrow::after{
+            top: 50px;
+         
+        }
+    }
+}
+@media (max-width: 760px) {
+    .project{
+        &__inner{
+            
+            left: 40px;
+        }
+    }
+}
+@media (max-width: 570px) {
+    .project{
+        &__inner{
+            left: 20px;
+            bottom: 20px;
+        }
+    }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,247 @@
+html{
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after{
+    box-sizing: inherit;
+  }
+  html,
+  body {
+    height: 100%;
+  }
+  a{
+    display: inline-block;
+    text-decoration: none;
+  }
+  ul,
+  li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  body{
+    overflow-x: hidden;
+  }
+  .wrapper {
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+  }
+  .content {
+      flex: 1 0 auto;
+  }
+  .footer {
+      flex: 0 0 auto;
+  }
+  .container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    overflow: hidden;
+  }
+  .container-fluid{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 25px;
+  }
+  
+
+
+  .title{
+    text-align: center;
+    color: #333f48;
+    font-family: "Helios Bold",sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    span{
+      color: #cab64b;
+    }
+  }
+  .sub-title{
+    font-family: "Helios Bold",sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    span{
+      color: #cab64b;
+    }    
+    
+  }
+  .text{
+    color: #333f48;
+    font-family: 'Helios',sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .sub-text{
+    font-family: 'Helios',sans-serif;
+    font-size: 16px;
+    font-weight: 400;    
+  }
+  a{
+    cursor: pointer;
+  }
+  a.link{
+    margin: 0 auto;
+    text-align: center;
+    padding: 29px 82px;
+    color: #ffffff;
+    font-family: "Helios Bold",sans-serif;
+    font-size: 16px;
+    font-weight: 400;    
+    background-color: #cab64b;
+    border: none;
+    outline: none;
+}
+.link{
+  margin: 0 auto;
+  text-align: center;
+}
+.relation {
+  position: relative;
+  max-width: 900px;
+  // margin-left: auto;
+}
+.row .relation__offset {
+  padding-top: 57%;
+}
+.relation__offset {
+  height: 0;
+}
+.relation__content {
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+  .breadcrumbs{
+    margin-top: -55px;
+    margin-bottom: 48px;
+    &__inner{
+      padding: 45px 0px 40px;
+      overflow: hidden;
+      max-width: 1200px;
+    }
+    &__list{
+      li{
+        margin-bottom: 20px;
+        display: inline-block;
+        position: relative;
+        & + li{
+          padding-left: 24px;
+          &::before{
+            content: ' / ';
+            position: absolute;
+            left: 8px;
+          }
+        }
+        &:last-child{
+          a,
+          span{
+            color: #333f48;
+            font-family: 'Helios',sans-serif;
+            font-size: 16px;
+            font-weight: 400;          
+          }
+        }
+      }
+      a{
+        font-family: 'Helios'sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #cab64b;
+        text-decoration: underline;
+      }
+    }
+  }
+  button{
+    cursor: pointer;
+  }
+//   .video__link {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     border-radius: 20px;
+// }
+
+// .video__media {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+//     border: none;
+// }
+
+// .video__button {
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     z-index: 1;
+    
+//     padding: 0;
+//     width: 68px;
+//     height: 48px;
+//     border: none;
+//     background-color: transparent;
+//     transform: translate(-50%, -50%);
+//     cursor: pointer;
+// }
+
+// .video__button-shape {
+//     fill: #212121;
+//     fill-opacity: 0.8;
+// }
+
+// .video__button-icon {
+//     fill: #ffffff;
+// }
+
+// .video__button:focus {
+//     outline: none;
+// }
+
+// .video:hover .video__button-shape,
+// .video__button:focus .video__button-shape {
+//     fill: #ff0000;
+//     fill-opacity: 1;
+// }
+
+// /* Enabled */
+
+// .video--enabled {
+//     cursor: pointer;
+//     border-radius: 10px;
+// }
+
+// .video--enabled .video__button {
+//     display: block;
+// }
+  // @media (max-width: 780px){
+  //   .btn{
+  //     padding: 20px 80px;
+  //   }
+  // }
+  // @media (max-width: 780px){
+  //   .btn{
+  //     padding: 16px 65px;
+  //   }
+  // }
+@media (max-width: 1200px) {
+ 
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 760px) {
+
+}
+@media (max-width: 570px) {
+   
+}

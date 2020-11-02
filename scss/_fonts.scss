@@ -1,0 +1,67 @@
+
+@font-face{
+    font-family: 'RobotoSlab-Regular', sans-serif;
+   
+    src: url('../ofont.ru_Helios (1).ttf') format('ttf'),
+         url('../ofont.ru_Helios (2).ttf') format('ttf'),
+         url('../ofont.ru_Helios.ttf') format('ttf');
+    font-weight: 400;
+    font-display: swap;
+    
+         
+}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?bdnsyo');
+    src:  url('../fonts/icomoon.eot?bdnsyo#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?bdnsyo') format('truetype'),
+      url('../fonts/icomoon.woff?bdnsyo') format('woff'),
+      url('../fonts/icomoon.svg?bdnsyo#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-map-marker:before {
+    content: "\f041";
+  }
+  .icon-envelope:before {
+    content: "\f0e0";
+  }
+  .icon-angle-left:before {
+    content: "\f104";
+  }
+  .icon-angle-right:before {
+    content: "\f105";
+  }
+  .icon-angle-down:before {
+    content: "\f107";
+  }
+  .icon-whatsapp1:before {
+    content: "\f232";
+  }
+  .icon-phone:before {
+    content: "\e942";
+  }
+  .icon-whatsapp:before {
+    content: "\ea93";
+  }
+  
+  
+  
+  

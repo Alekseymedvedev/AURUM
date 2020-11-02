@@ -1,0 +1,134 @@
+.about{
+    margin-bottom: 115px;
+    &__item{
+        display: flex !important;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__box-img{
+        padding: 28px;
+        background-image: url(../images/about-bg.jpg);
+    }
+    &__img-inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        img{
+            margin-right: 32px;
+        }
+    }
+    &__item-img{
+        padding: 10px;
+        max-width: 200px;
+    }
+    &__title{
+        margin-bottom: 32px;
+    }
+    &__text{
+        margin-bottom: 66px;
+    }
+    &__sub-title{
+        margin-bottom: 16px;
+    }
+    &__sub-text{
+        margin-bottom: 30px;
+        max-width: 450px;
+        span{
+            margin-bottom: 39px;
+        }
+    }
+    img{
+        max-width: 555px;
+    }
+    .slick-prev.slick-arrow::before{ 
+        color: #ccb54b;  
+        border: 1px solid #ccb54b;
+        top: 480px;
+        left: 130px;
+    }
+    .slick-next.slick-arrow::after{
+        color: #ccb54b;
+        top: 480px;
+        left: 40px;
+        border: 1px solid #ccb54b;
+    }
+}
+
+@media (max-width: 1200px) {
+ 
+}
+@media (max-width: 992px) {
+.about{
+    margin-bottom: 90px;
+    &__item{
+        position: relative;
+    }
+    &__box{
+        padding: 10px 20px;
+        position: absolute;
+        bottom: 0px;
+        left: 10px;
+    }
+    &__box-img{
+        width: 100%;
+        padding: 10px;
+    }
+    img{
+        width: 100%;
+        max-width: 100%
+    }
+    &__title{
+        margin-bottom: 20px;
+    }
+    &__text{
+        margin-bottom: 40px;
+    }
+    &__sub-title{
+        color: #fff;
+    }
+    &__sub-text{
+      color: #fff;
+    }
+    .slick-prev.slick-arrow::before{ 
+        top: 80px;
+    }
+    .slick-next.slick-arrow::after{
+        top: 80px;
+    }
+}
+}
+@media (max-width: 760px) {
+    .about{
+        margin-bottom: 60px;
+    }
+}
+@media (max-width: 570px){
+    .about{
+        margin-bottom: 40px;
+        &__title{
+            margin-bottom: 15px;
+        }
+        &__text{
+            margin-bottom: 20px;
+        }
+        &__sub-title{
+            margin-bottom: 10px;
+        }
+        &__sub-text{
+            margin-bottom: 15px;
+            span{
+                margin-bottom: 20px;
+            }
+        }
+        &__box-img{
+           padding: 5px;
+        }
+    }
+}
+@media (max-width: 460px){
+   .about{
+       img{
+           max-width: 100%;
+       }
+   }
+}
